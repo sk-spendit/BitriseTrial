@@ -50,6 +50,12 @@ class BitriseTrialTests: XCTestCase {
         
         XCTAssertNotEqual(result, expected)
     }
+
+    func testExaple3() {
+        let result = ViewController.getString()
+        
+        XCTAssertNotNil(result)
+    }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
