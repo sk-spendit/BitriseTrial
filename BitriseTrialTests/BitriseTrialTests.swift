@@ -33,7 +33,6 @@ class BitriseTrialTests: XCTestCase {
     
     func testExaple3() {
         let result = ViewController.getString()
-        
         XCTAssertNotNil(result)
     }
 
