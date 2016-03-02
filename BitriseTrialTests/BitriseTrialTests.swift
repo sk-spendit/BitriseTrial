@@ -27,6 +27,7 @@ class BitriseTrialTests: XCTestCase {
         
         let result = ViewController.getString()
         let expected = "TestString"
+        
         XCTAssertEqual(result, expected)
     }
     
